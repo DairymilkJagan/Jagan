@@ -1,13 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import Elements from './Task-1/Elements';
+import Form from './Task-1/Form';
+import Number from './Task-2/Number';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Elements />
+    <Form />
+    <Number />
   </React.StrictMode>
 );
 
