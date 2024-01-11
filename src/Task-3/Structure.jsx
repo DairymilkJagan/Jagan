@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css'; // Import the CSS file for styling
+import './style.css';
 
 class TableComponentClass extends Component {
   render() {
@@ -35,7 +35,7 @@ class TableComponentClass extends Component {
       <div className="table-container">
         <h2>JSON Data in HTML Table</h2>
         <table>
-          <thead>
+          <thead>   
             <tr>
               <th>Name</th>
               <th>Department</th>

@@ -16,11 +16,15 @@ class AddNumbersComponent extends Component {
     const num1 = parseFloat(number1);
     const num2 = parseFloat(number2);
 
-    if (!isNaN(num1) && !isNaN(num2)) {
-      this.setState({ result: num1 + num2 });
-    } else {
-      this.setState({ result: null });
-    }
+    // If num2 is NaN, use 0 as the default value
+    const result = (!isNaN(num1) ? num1 : 0) + (!isNaN(num2) ? num2 : 0);
+    this.setState({ result });
+
+    // if (!isNaN(num1) && !isNaN(num2)) {
+    //   this.setState({ result: num1 + num2 });
+    // } else {
+    //   this.setState({ result: null });
+    // }
   };
 
   render() {

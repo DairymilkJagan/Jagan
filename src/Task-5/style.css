@@ -1,33 +1,36 @@
-/* Container Styles */
+/* style.css */
+
 .login-form-container {
-    text-align: center;
-    margin: 20px;
-    /* width: min-content; */
+    max-width: 400px;
+    margin: 0 auto;
   }
   
-  /* Form Group Styles */
   .form-group {
     margin-bottom: 15px;
   }
   
-  /* Input Styles */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
   input {
-    padding: 5px;
-    /* text-size-adjust: 60%; */
-    width: 100px;
+    width: 80%;
+    padding: 10px; /* Increase the padding for a bigger size */
+    box-sizing: border-box;
+    font-size: 16px; /* Adjust the font size as needed */
   }
   
-  /* Button Styles */
-  button {
-    padding: 10px;
-    cursor: pointer;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-  }
-  
-  /* Error Message Styles */
   .error-message {
     color: red;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #1299f3;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
   }
   

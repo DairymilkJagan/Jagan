@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './style.css'; // Import the CSS file for styling
+import './style.css';
 
 class LoginClassForm extends Component {
   constructor(props) {

@@ -1,32 +1,36 @@
-/* Container Styles */
+/* style.css */
+
 .add-numbers-container {
-  text-align: center;
-  margin: 20px;
+  max-width: 250px;
+  margin: 0 auto;
 }
 
-/* Input Container Styles */
 .input-container {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-/* Input Styles */
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
 input {
+  width: 100%;
   padding: 8px;
-  width: 80px;
+  box-sizing: border-box;
+  font-size: 16px; /* Adjust the font size as needed */
 }
 
-
-/* Button Styles */
 button {
-  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 16px;
   cursor: pointer;
-  background-color: #0de514;
-  color: white;
-  border: none;
 }
 
-/* Result Styles */
 .result {
-  margin-top: 10px;
-  font-weight: bold;
+  margin-top: 15px;
+  font-size: 18px; /* Adjust the font size as needed */
+  color: #007bff;
 }

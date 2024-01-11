@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import './style.css'; // Import the CSS file for styling
+import './style.css';
 
 class WeatherComponentClass extends Component {
   constructor(props) {
     super(props);
+    //set an api key as instant variable
     this.state = {
       city: '',
       weatherData: null,

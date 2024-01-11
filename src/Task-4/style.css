@@ -1,31 +1,36 @@
-/* Container Styles */
+/* style.css */
+
 .weather-container {
-    text-align: center;
-    margin: 20px;
+    max-width: 400px;
+    margin: 0 auto;
   }
   
-  /* Input Container Styles */
   .input-container {
-    margin-bottom: 10px;
-    /* width: 400px; */
+    margin-bottom: 15px;
   }
   
-  /* Input Styles */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
   input {
+    width: 100%;
     padding: 8px;
+    box-sizing: border-box;
+    font-size: 16px; /* Adjust the font size as needed */
   }
   
-  /* Button Styles */
   button {
-    padding: 10px;
+    background-color: #18ea22;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
     cursor: pointer;
-    background-color: #4caf50;
-    color: white;
-    border: none;
   }
   
-  /* Weather Output Styles */
   .weather-output {
-    margin-top: 20px;
+    margin-top: 15px;
+    font-size: 18px; /* Adjust the font size as needed */
   }
   

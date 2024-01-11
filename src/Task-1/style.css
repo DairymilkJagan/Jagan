@@ -51,7 +51,7 @@
 }
 
 .custom-form button:hover {
-  background-color: #0bd86a;
+  background-color: #2bed11;
 }
 /* Style for form element */
 .form-elements-container {
@@ -107,7 +107,7 @@ input[type="checkbox"] {
 }
 
 button {
-  background-color: #18ee11;
+  background-color: #18c8fd;
   color: #fff;
   padding: 10px;
   border: none;
@@ -116,5 +116,5 @@ button {
 }
 
 button:hover {
-  background-color: #06f45ee0;
+  background-color: #c1f212e0;
 }
