@@ -1,17 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Elements from './Task-1/Elements';
-import Form from './Task-1/Form';
+import FormComponent from './Task-1/form';
+import Elements from './Task-1/formelements';
 import Number from './Task-2/Number';
+import Button from './Task-4/Button';
+import Login from './Task-5/Login';
+import Structure from './Task-3/Structure';
+// import Email from './Task-6/Email';
+// import Signup from './Task-6/Signup';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Elements />
-    <Form />
+    <FormComponent />
+    <formelements />
     <Number />
+    <Structure />
+    <Button />
+    <Login />
+    {/* <Email />
+    <Signup /> */}
   </React.StrictMode>
 );
 

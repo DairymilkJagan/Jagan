@@ -1,0 +1,32 @@
+/* Container Styles */
+.add-numbers-container {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Input Container Styles */
+.input-container {
+  margin-bottom: 10px;
+}
+
+/* Input Styles */
+input {
+  padding: 8px;
+  width: 80px;
+}
+
+
+/* Button Styles */
+button {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #0de514;
+  color: white;
+  border: none;
+}
+
+/* Result Styles */
+.result {
+  margin-top: 10px;
+  font-weight: bold;
+}

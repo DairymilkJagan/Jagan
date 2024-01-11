@@ -1,0 +1,33 @@
+/* Container Styles */
+.login-form-container {
+    text-align: center;
+    margin: 20px;
+    /* width: min-content; */
+  }
+  
+  /* Form Group Styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Input Styles */
+  input {
+    padding: 5px;
+    /* text-size-adjust: 60%; */
+    width: 100px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  
+  /* Error Message Styles */
+  .error-message {
+    color: red;
+  }
+  

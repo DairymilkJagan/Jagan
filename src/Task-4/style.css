@@ -1,0 +1,31 @@
+/* Container Styles */
+.weather-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  /* Input Container Styles */
+  .input-container {
+    margin-bottom: 10px;
+    /* width: 400px; */
+  }
+  
+  /* Input Styles */
+  input {
+    padding: 8px;
+  }
+  
+  /* Button Styles */
+  button {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+  }
+  
+  /* Weather Output Styles */
+  .weather-output {
+    margin-top: 20px;
+  }
+  

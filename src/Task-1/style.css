@@ -1,0 +1,120 @@
+/* styles.css */
+
+/* Styles for TableComponent */
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  border: 1px solid;
+  padding: 20px; 
+}
+
+.center th, .center td {
+  border: 1px solid;
+  padding: 20px;
+}
+
+.center th {
+  background-color: #f2f2f2;
+}
+
+/* Styles for FormComponent */
+.custom-form {
+  max-width: 300px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.custom-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.custom-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.custom-form button {
+  background-color: #10f942;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.custom-form button:hover {
+  background-color: #0bd86a;
+}
+/* Style for form element */
+.form-elements-container {
+  max-width: 550px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+legend {
+  font-weight: bold;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="Email"],
+select,
+textarea {
+  width: 80%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+button {
+  background-color: #18ee11;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #06f45ee0;
+}
